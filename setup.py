@@ -1,9 +1,10 @@
 # !/usr/bin/env python
 
 from distutils.core import setup
+import app
 setup(
-    name='cookiecutter-pypackage',
-    packages=[],
+    name='HipFlask',
+    packages=['app'],
     version='0.1.0',
     description='Cookiecutter template for a Python package',
     author='Audrey Roy Greenfeld',

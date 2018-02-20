@@ -1,0 +1,3 @@
+[console_scripts]
+HipFlask = run:run_my_flask
+
