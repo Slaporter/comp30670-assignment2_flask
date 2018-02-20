@@ -28,4 +28,7 @@ setup(
         'Programming Language :: Python :: Implementation :: PyPy',
         'Topic :: Software Development',
     ],
+       entry_points={
+          'console_scripts':['HipFlask=run:run_my_flask']
+          }
 )
